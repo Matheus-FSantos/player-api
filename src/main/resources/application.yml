@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: sp-players
+  datasource:
+    url: jdbc:h2:mem:test
+    username: SA
+    password:
+    driverClassName: org.h2.Driver
+  h2:
+    console:
+      path: /h2
+      enabled: true
